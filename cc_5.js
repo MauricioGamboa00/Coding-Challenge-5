@@ -78,3 +78,22 @@ function calculateTax(amount, taxRate) {
 
 calculateTax(500, 0.06); // declared numbers for calculating tax
 
+// Task 9 Function Expression
+
+let applyDiscount = function(price, discount) {
+    let discountedPrice = price - (price * discount);
+    console.log(`Discounted Price: $${discountedPrice}`);
+    return discountedPrice; // Created a function to apply a discount to a product
+};
+
+applyDiscount(500, .10); // Set product price and discount amount
+
+// Task 10 Arrow Function
+
+let calculatePoints = (purchaseAmount) => {
+    let points = Math.floor(purchaseAmount / 10);
+    console.log("Loyalty Points Earned:", points);
+    return points; // Created a function to calculate loyalty points on purchases
+};
+
+calculatePoints(700); // Set purchase amount for point calculation
