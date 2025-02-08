@@ -36,4 +36,10 @@ cartItems.shift(); // removed the first product of the array
 
 console.log("Updated Cart Items:", cartItems); // logging updated list of cart items to console
 
+// Task 4 Map Method
 
+let prices = [100, 200, 300]; // created an array of prices
+
+let discountedPrices = prices.map(price => price * .9); // Applying 10% discount to prices array
+
+console.log("Discounted Prices:", discountedPrices); // logging discounted prices to console
