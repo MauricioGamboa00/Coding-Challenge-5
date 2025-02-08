@@ -43,3 +43,12 @@ let prices = [100, 200, 300]; // created an array of prices
 let discountedPrices = prices.map(price => price * .9); // Applying 10% discount to prices array
 
 console.log("Discounted Prices:", discountedPrices); // logging discounted prices to console
+
+// Task 5 Filter Method
+
+let inventory = [5, 0, 12, 8, 0]; // created an array
+
+let availableProducts = inventory.filter(quantity => quantity > 0); // removed objects in array which were 0 quantity
+
+console.log("Products Available:", availableProducts); // logging of available products in console
+
