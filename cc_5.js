@@ -23,5 +23,17 @@ let order = {
 
 }; // Logging of order details in console
 
-order.displayOrder()
+order.displayOrder();
+
+// Task 3 Array Manipulation (push, pop, shift, unshift)
+
+let cartItems = ["Phone", "Backpack", "Charger"]; // Created an array of three items
+
+cartItems.push("Laptop"); // added a new product to the array
+cartItems.pop(); // removed the last product of the array
+cartItems.unshift("Tablet"); // added a product at the start of the array
+cartItems.shift(); // removed the first product of the array
+
+console.log("Updated Cart Items:", cartItems); // logging updated list of cart items to console
+
 
